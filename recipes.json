@@ -1,0 +1,235 @@
+{
+    "recipes": [
+       {
+            "name":"Neopolatin Pizza",
+            "serving":{
+                "quantity": 8,
+                "size": 240,
+                "unit":"Gram",
+                "type": "Dough Balls"
+            },
+            "description":"Tasty, chewy and crispy is what we all need.<br><i>'Theres no such thing as a bad pizza'</i> 🍕🥴🤣<br>Whether you believe in this <strong>myth</strong> or not... <br> Making the <i>perfect</i> pizza is a bit tricky...<br>It starts with a 500-950°F oven and this recipe!<br>Recipe credits go to the Ooni test kitchen!",
+            "ingredients":[
+                {
+                    "name":"'00' Flour",
+                    "quantity":500,
+                    "unit":"Grams"
+                },
+                {
+                    "name":"Water",
+                    "quantity":300,
+                    "unit":"mL"
+                },
+                {
+                    "name":"Salt",
+                    "quantity":10,
+                    "unit":"Grams"
+                },
+                {
+                    "name":"Instant Yeast",
+                    "quantity":1.12,
+                    "unit":"Grams"
+                }
+            ], 
+            "instructions":[
+                "Prepare warm water (bring 1\/3 of your water to a boil and mix with remaining water)",
+                "When the whater is lukewarm, add your yeast and salt",
+                "Add this mixture into a large mixing bowl and knead for 10 min",
+                "Cover dough with plastic wrap and/or damp kitchen towel and leave to rise for 2hrs",
+                "Once dough has roughly doubled in size, split the dough balls up into roughly 240g balls for a 10-12 inch pizza",
+                "Roll divided dough into round balls and let rest (covered) for 15 - 20 minutes",
+                "Flatten it out with your fingers, starting in the center pushing the tiny little gas bubbles towards a 1-2 cm crust",
+                "At this point it is a subjective free for all... Sauce it up with tomatoe, alfredo or even BBQ base and add your desired toppings!",
+                "My philosophy is the simpler the pizza the better... ENJOY!"
+            ],
+            "SpecialNotes":"Hey this note is very special",
+            "photoThumbnail":"CookedDough.jpeg",
+            "photoHeader":"highQaulityDoughPhotoRev1.jpg"
+       },
+       {
+            "name":"Lebanese Garlic Sauce",
+            "serving":{
+                "quantity": 5,
+                "size":"",
+                "unit":"Cups",
+                "type": "Fluffy Garlic Sauce"
+            },
+            "description":"About 4 years ago I was introduced...<br>I've been making it almost monthly ever since.<br>I've travelled <i><strong>far</strong></i> around the Middle-East...<br>And by <i><strong>far</strong></i>, it's the most simple and tastiest.<br>Let me know what you try it on!<br>My favourites are on chicken and pizza 🤤<br>Recipe credit go to the beautiful Lody!",
+            "ingredients": [
+                {
+                    "name" : "Fresh Garlic Cloves",
+                    "quantity" : 1,
+                    "unit" : "Cups"
+                },
+                {
+                    "name" : "Any Vegetable Oil",
+                    "quantity" : 2.5,
+                    "unit" : "Cups"
+                },
+                {
+                    "name" : "Fresh Lemon Juice",
+                    "quantity" : 3,
+                    "unit" : "Lemons"
+                },
+                {
+                    "name" : "Salt",
+                    "quantity" : 4,
+                    "unit" : "tsp"
+                }
+            ],
+            "instructions":[
+                "Squeeze the lemons, collect the juice in a bowl and cut the brown ends off your garlic cloves",
+                "Using a food processer <strong>with</strong> a feed tube, pulse your garlic until most pieces are stuck on the walls, then scrape down",
+                "<i>Ok so at this point you need to have all your ingredients ready because when we turn on the processor it should not turn off until we are done.<br> We want to emulsify the oil and garlic together and that can only be done by SLOWLY adding in the oil. Most food processors come with a small hole <br> in the feedtube for this process, if you dont have it no worries, pour the oil as thin as a fine thread</i>",
+                "We will add in our oil in batches of 1\/3 cups. So go a head, and add a little oil and then turn on the machine",
+                "Once the 1\/3 of a cup of oil has been incorperated, add 1-2 tsp of the lemon juice - Repeat this stip until all the oil is incorperated",
+                "Finally turn off your machine, and add your salt to taste. If you find the garlic too 'spicy'😭 add 1\/2 - 1 cup of more oil next time",
+                "Because of the simple ingredients, the sauce will last over a month in the fridge! Enjoy your garlic breath my friends! 😮‍💨💀"
+                
+            ],
+            "SpecialNotes":"Hey this note is very special",
+            "photoThumbnail": "GarlicSauceThumbnail.jpg",
+            "photoHeader": "GarlicSauceHeaderRev1.jpg"
+        },
+        {
+            "name":"Pita bread",
+            "serving":{
+                "quantity": 8,
+                "size": 6,
+                "unit":"Inch",
+                "type": "Pita"
+            },
+            "description":"Not much beats fresh bread...<br>Expecially when you make it yourself!<br>The perfect pita pocket recipe is here!<br>Rip it and dip it or turn it into a utensil. 😎<br>Pair with hummus, babaghanoush or Lebnah.<br>Shawarma wraps with my Garlic Sauce...😍<br>Recipe credits go to David at the NY Times!",
+            "ingredients": [
+                {
+                    "name": "All-Purposed Flower",
+                    "quantity": 300,
+                    "unit": "Grams"
+                },
+                {
+                    "name":"Whole-Wheat Flour",
+                    "quantity":35,
+                    "unit":"Grams"
+                }, 
+                {
+                    "name":"Instant Yeast",
+                    "quantity": 1.5,
+                    "unit":"tsp"
+                },
+                {
+                    "name":"Salt",
+                    "quantity": 1,
+                    "unit":"tsp"
+                },
+                {
+                    "name":"Sugar",
+                    "quantity": 0.5,
+                    "unit": "tsp"
+                },
+                {
+                    "name":"Olive Oil",
+                    "quantity":2,
+                    "unit":"tbsp"
+                },
+                {
+                    "name":"Water",
+                    "quantity": 240,
+                    "unit":"mL"
+                }
+            ],
+            "instructions": [
+                "Prepare warm water (bring 1\/3 of your water to a boil and mix with remaining water)",
+                "Add yeast and sugar to water and let sit for 15 minutes in a warm place",
+                "Combine the mixture with all the whole-wheat flour, all-purpose flower, olive oil and salt",
+                "Mix with a wooden spoon until a shaggy mass, then knead in the bowl for 1 minute",
+                "Once most of the stray bits have been incorperated, turn dough out onto work surface and knead lightly for 2 minutes",
+                "Once the dough forms a smooth surface, let it rest for 10 minutes and knead again for 2 minutes",
+                "Get a clean mixing bowl and place the dough inside, covering with either plastic wrap or a towel",
+                "Wait 1-2hrs for the dough to double in size, this step varies depending on temperature and flour used",
+                "At this point we want to preheat our vessel... Preheat your oven at 475°F with a baking tray or cast iron pan (or cook on a hot stove top)",
+                "Punch your dough in the mouth and split it into roughly 80g balls, be sure to flour your work surface before rolling out into 6in discs",
+                "Place the discs on the vessel swiftly but carefuly and place in the oven for 2 minutes, we are looking for a nice puff",
+                "Turn over to the other side and bake for one more minute, and place warm pita in a towel to absorb the moisture and to stay soft",
+                "Enjoy my friends 🙃"
+                
+
+            ],
+            "SpecialNotes":"Hey this note is very special",
+            "photoThumbnail": "PitaThumbnailRev.jpg",
+            "photoHeader":"PitaHeaderRev1.jpg"
+        },
+        {
+            "name":"Semi-Sweat Corn Bread",
+            "serving":{
+                "quantity": 1,
+                "size": 10,
+                "unit":"Inch",
+                "type": "Cast-Iron Loaf"
+            },
+            "description":"You may ask how did corn bread end up here?? <br> In 2014 I had the pleasure of visiting NOLA ⚜️<br> This was the one that I couldnt let get away... <br> It goes great with any sort of hearty BBQ 🍖<br> Make sure to eat it while is warm, so reheat it!<br> My favourite way is with some honey & butter.<br> 😋😋😋 ",
+            "ingredients":[
+                {
+                    "name":"Buttermilk",
+                    "quantity":1.5,
+                    "unit":"Cups"
+                },
+                {
+                    "name":"Eggs",
+                    "quantity":2,
+                    "unit":"Large"
+                },
+                {
+                    "name":"Butter",
+                    "quantity":0.5,
+                    "unit":"Cups"
+                },
+                {
+                    "name":"Honey",
+                    "quantity":3.5,
+                    "unit":"tbsp"
+                },
+                {
+                    "name":"Cornmeal",
+                    "quantity":1,
+                    "unit":"Cups"
+                },
+                {
+                    "name":"All-Purposed Flower",
+                    "quantity":1,
+                    "unit":"Cups"
+                },
+                {
+                    "name":"Baking Powder",
+                    "quantity":0.5,
+                    "unit":"tsp"
+                },
+                {
+                    "name":"Baking Soda",
+                    "quantity":0.5,
+                    "unit":"tsp"
+                },                
+                {
+                    "name":"Salt",
+                    "quantity":1,
+                    "unit":"tsp"
+                }
+                
+            ], 
+            "instructions":[
+                "Preheat the oven to 425°F and melt down the butter in your skillet",
+                "Whisk all your dry then wet ingredients in seperate bowls",
+                "Whisk roughly half the <strong>cooled down</strong> butter into the wet ingredients",
+                "Slowly and gently fold the dry ingredients into the wet ingredients",
+                "Place the batter into the skillet with the remaining butter",
+                "Place the skillet in the pre-heated oven and wait about 23 minutes",
+                "When you suspect its done, insert a toothpick into the center.<br>If it comes out clean with nothing stuck to it, it is ready!",
+                "Let it cool for 10 minutes on a baking rack or in the pan.",
+                "Tradition is to always add some extra butter on top. 😎"
+            ],
+            "SpecialNotes":"Hey this note is very special",
+            "photoThumbnail":"CornBreadThumbnail.jpg",
+            "photoHeader":"CornBreadHeader.jpg"
+       }
+       
+    ]
+}

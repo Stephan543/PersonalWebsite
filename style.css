@@ -1,0 +1,599 @@
+
+/*Chaning Default styling*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+/* body, html{
+    height: 100%;;
+} */
+
+body{
+    padding-top: 5vh; /*Nav Bar Consideration*/
+    background: #bdc3c7; /* fallback for old browsers */
+    background: -webkit-linear-gradient(45deg, #bdc3c7, #2c3e50); /* Chrome 10-25, Safari 5.1-6 */
+}
+
+header{
+    box-shadow: 0px 3px 10px rgba(0,0,0, 0.3);
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background: #343e36;
+    z-index: 2;
+    /* display: none; */
+    
+}
+
+/* .header.headerActive{
+    display: border-box;
+}
+     */
+
+#landing-image{
+    display:fixed;
+    background-image: url(HighQualitySelfPortraitRev1.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;  
+}
+
+#landing-image h1{
+    position: relative;
+    color: #343e36 ;
+    /* width: 100%; */
+    text-align: right;
+    padding-right: 3%;
+    font-size: 40px;
+    font-weight: 200;
+    text-transform: lowercase;
+    top: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+#landing-image p{
+    position: relative;
+    color: #343e36 ;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: right;
+    padding-right: 3%;
+    font-size: 15px;
+    font-weight: 100;
+    top: 90px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Welcome bin w/text */
+.welcome-area{
+    width: 100%;
+    /* padding: 50px 0px; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.welcome-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 40px;
+    min-height: 80%;
+    width: 90%;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    justify-content: center;
+    line-height: 2rem;
+    color: black;
+    background-color:  whitesmoke;
+    opacity: 0.75;
+}
+
+.welcome-text h1, h2, h3{
+    text-align: center;
+    line-height: 1rem;
+}
+  
+  .welcome-text ol{
+    margin-top: 10px;
+    counter-reset: item;
+    text-align: left;
+    padding: 20px 20px;
+    border: 5px solid black;
+    border-radius: 50px;
+  }
+
+  .welcome-text ol>li{
+      list-style-type: none;
+      counter-increment: item;
+  }
+  .welcome-text ol > li:before{
+      content: counter(item) ". " ;
+      font-weight: bold;
+  }
+  .welcome-text ul{
+    margin-left: 0;
+    padding-left: 60px; 
+}
+
+
+    .welcome-text a{
+        text-align: center;
+        display: block;
+        margin: auto;
+        width: fit-content;
+        padding-top: 10px;
+    }
+
+/*Parent nav 'box'*/
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 5vh;
+    background-color: #343e36;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+    /*Unordered List style*/
+    .navLinks{
+        display: flex;
+        justify-content: space-around;
+        width: 38%;
+        z-index: 1;  
+    }
+    
+    .navLinks li{
+        list-style: none;
+               
+    }
+  
+    /*Link Style*/
+    .navLinks a{
+        display: flex;
+        color: whitesmoke;
+        text-decoration: none;
+        letter-spacing: 2px;
+        font-size: 15px;
+        width: 33.33%; /*divided equally for 3 links*/
+
+    }
+
+    /*Responsive Nav Bar Style*/
+ .button{
+    display: none;
+    cursor: pointer;
+    margin-right: 3%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: 1.5px solid whitesmoke;
+    border-radius: 5px;
+    z-index: 1;  
+    
+}
+.button div{
+    width: 14px;
+    height: 1.5px;
+    background-color: whitesmoke;
+    margin: 3px;
+    transition: all 0.3s ease;
+}
+
+
+#recipePreview{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 30px auto;
+    max-height: 300px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* opacity: 80%; */
+}
+
+#recipePreview:hover {
+    transform: scale(1.1);
+}
+
+.recipePreviewText{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-basis: 400px;
+}
+#recipePreview h2{
+    justify-content: center;
+}
+
+#recipePreview p{
+    padding-top: 0.7rem;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+/* Tablet style */
+@media screen and (max-width:1024px){
+    .navLinks{
+        width: 60%;
+    }
+    .welcome-text{
+        width: 90%;
+    }
+    #recipePreviewBlurb{
+        font-size: 0.8rem;
+    }
+    #recipeFeed{
+        width: 65%;
+    }
+   
+
+}
+
+ 
+
+
+/*Mobile Style*/
+@media screen and (max-width:767px){
+    body{
+        overflow-x: hidden;
+    }
+  
+    .navLinks{
+        position: absolute;
+        right: 0px;
+        height: 100vh;
+        top: 4vh;
+        background-color: #343e36;
+        opacity: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .navLinks li{
+        opacity: 0;
+    }
+    .button{
+        display: block;       
+    }
+    
+    .welcome-text h1{
+        line-height: 2rem;
+    }
+
+    .welcome-text {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #recipePreviewBlurb{
+        position: absolute relative;
+        padding: 30px;
+        font-size: 8px;
+    }
+    
+    #recipeFeed{
+        width: 90%;
+        font-size: 9.5px;
+    }
+    #recipePreview p{
+        padding-top: 0.5rem;
+        line-height: 1rem;
+    }
+
+    #instructions ol{
+        padding-left: 20px;
+        font-size: 10px;
+        line-height: 1rem;
+    } 
+
+}
+
+.navActive{
+    transform: translateX(0%);
+}    
+
+
+
+/*List items animation style*/
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+/*Button animation style translate*/
+.toggle .line1{
+    transform: rotate(-50deg) translate(-3px, 3px);   
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(50deg) translate(-3.50px, -3px) ;
+    
+}
+    
+    
+/*Footer Parent 'box'*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 5vh;
+    background-color: #343e36;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+    /*Footer Element Style*/
+    .fDisplay{
+        align-items: center;
+        color: whitesmoke;
+        justify-content: center;
+        
+    }
+    /*Footer Link Style*/
+    .fDisplay a{
+        color: whitesmoke;
+        text-decoration: none;
+        letter-spacing: 2px;
+        
+        font-size: 15px;
+    }
+
+
+/* Recipe Page Styling */
+
+#recipePage{
+    width: 100%;
+    min-height: 88vh;;
+    justify-content: center;
+    /* padding-top: 15px; */
+    font-size: 100%;
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+   
+}
+#recipePreviewBlurb{
+    width: fit-content;
+    max-width: 95vw;
+    text-align: center;
+    margin: auto;    
+    margin-top: 3vh;
+    padding: 20;
+    border-radius: 2em;
+    background-color: whitesmoke;
+    opacity: 80%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#recipeFeed{
+    max-width: 650px;
+    margin: 30px auto;
+}
+#recipeFeed a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+/* img{
+    max-width: 100%;
+    height: auto;
+} */
+
+.thumbnail{
+    display: flex;
+    width: 35%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.imgHeader{
+    display: flex;
+    justify-content: center;
+    max-height: 50vh;
+}
+.recipeTitle{
+    min-height: 10vh;
+    width: fit-content;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 50px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 1rem;
+}
+.imgHeader img{ 
+    width: 100%;
+    height: auto;
+    min-height: 15vh;
+}
+
+#servingInfo{
+    min-height: 10vh;
+    width: fit-content;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 50px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height: 2rem;
+}
+#servingInfo h2{
+    padding-bottom: 10px;
+}
+
+#servingInfo input[type=number]{
+    width: 40px;
+    padding-top: 1px;
+}
+
+#ingredients{
+    padding: 1rem;
+    min-height: 10vh;
+    width: fit-content;
+    margin: auto;
+    margin-top: 50px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height: 1.75rem;
+}
+#ingredients h2{
+    text-align: center;
+}
+
+
+#ingredients ol{
+    padding-top: 1rem;
+    padding-left: 50px;
+    
+}
+
+#instructions{
+    padding: 1rem;
+    min-height: 10vh;
+    max-width: 90vw;
+    width: fit-content;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height: 2rem;
+}
+
+#instructions h1{
+    text-align: center;
+}
+
+#instructions ol{
+
+    padding-left: 1.5rem;
+}
+
+#contactPage{
+    width: 100%;
+    height: 90vh;
+    /* height: min-content; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    font-size: 100%; 
+}
+
+#contactContainer{
+    padding: 1rem;
+    /* min-height: 40vh; */
+    width: 720px;
+    max-width: 90vw;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height: 2rem;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+#contactContainer h1{
+    padding-bottom: 20px;
+}
+#contactContainer hr{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 4px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+#contactContainer label{
+    text-align: left;
+}
+#contactContainer input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+#contactContainer input[type=submit]{
+    width: 80%;
+    min-height: 30px ;
+    background-color: #343e36;
+    color: whitesmoke;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contactContainer input[type=submit]:hover{
+    background-color: green;
+}
+
+#contactContainer textarea{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 150px;
+
+}
+
+.alertSuccess{
+    color: green;
+}
+
+.alertDanger{
+    color: red;
+}
