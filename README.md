@@ -2,7 +2,10 @@
 
 ## What is the purpose of this website?
 
-I created this Website mainly because I wanted to learn full stack web development and make a useful tool.
+I created this website mainly because I wanted to learn a solid foundation for full stack development without using any dependencies (external frameworks/libraries).
+However I did **NOT** want to follow or copy someone elses idea of a good project... I wanted to have an original idea that was also useful/valuabe to me and those in my immediate circle!
+
+## Where did the inspiration come from?
   
 A few years ago I started cooking alot of new recipes, so I made a Google Sheets database for all the recipes that I really enjoyed. This was the start to my cooking journey which has led many of my family and friends asking for recipes and instructions.
   
@@ -17,7 +20,7 @@ So I made website that:
   
 ## How did you learn how to do this?
   
-A couple youtube tutorials at first but these were time consuming, hard to remember and I found myself being being very dependant on their coding styles. So most of my learning came from [freecodecamp.org](https://www.freecodecamp.org/). They have a great system that involves ALOT of practice which I wanted.. 
+A couple youtube tutorials at first but these were time consuming, hard to remember and I found myself being very dependant on their coding styles. So most of my learning came from [freecodecamp.org](https://www.freecodecamp.org/). They have a great system that involves ALOT of practice which I wanted.. 
 
 *'Knowledge is only a rumor until it is experienced inside the body'*
   
@@ -25,7 +28,7 @@ A couple youtube tutorials at first but these were time consuming, hard to remem
 
 This list is ordered in terms of my top priorities:
 
-1. Fix any known bugs/issues/spelling in the current version (Gather site feedback feedback from launch on Jan 29, 2021)
+1. ~~Fix any known bugs/issues/spelling in the current version (Gather site feedback feedback from launch on Jan 29, 2021)~~
 2. ~~Clean up files so it is easier to read/clone - I chose to wait so I can use/learn git bash~~
 3. Use/Learn popular frameworks and update/clean up my code where I see fit
 4. Using said frameworks create a seperate *'my personal time scheduling web app'* that I can merge in eventually to the site
