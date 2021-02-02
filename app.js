@@ -79,7 +79,7 @@ xhttp.onreadystatechange = function() {
             defaultServing = currentRecipe.serving;
             var ingredients = currentRecipe.ingredients;
             document.getElementById('servingInfo').innerHTML = `
-            <h2>Adjustbale Info:</h2>
+            <h2>Adjustabale Info:</h2>
             
             <p><strong>Quantity: </strong><input type="number" placeholder="${defaultServing.quantity}"></p>
             <p>${defaultServing.size + ' ' + defaultServing.unit + ' ' + defaultServing.type}</p>
