@@ -43,8 +43,8 @@
                 "My philosophy is the simpler the pizza the better... ENJOY!"
             ],
             "SpecialNotes":"Hey this note is very special",
-            "photoThumbnail":"CookedDough.jpeg",
-            "photoHeader":"highQaulityDoughPhotoRev1.jpg"
+            "photoThumbnail":"photos/CookedDough.jpeg",
+            "photoHeader":"photos/highQaulityDoughPhotoRev1.jpg"
        },
        {
             "name":"Lebanese Garlic Sauce",
@@ -88,8 +88,8 @@
                 
             ],
             "SpecialNotes":"Hey this note is very special",
-            "photoThumbnail": "GarlicSauceThumbnail.jpg",
-            "photoHeader": "GarlicSauceHeaderRev1.jpg"
+            "photoThumbnail": "photos/GarlicSauceThumbnail.jpg",
+            "photoHeader": "photos/GarlicSauceHeaderRev1.jpg"
         },
         {
             "name":"Pita bread",
@@ -155,8 +155,8 @@
 
             ],
             "SpecialNotes":"Hey this note is very special",
-            "photoThumbnail": "PitaThumbnailRev.jpg",
-            "photoHeader":"PitaHeaderRev1.jpg"
+            "photoThumbnail": "photos/PitaThumbnailRev.jpg",
+            "photoHeader":"photos/PitaHeaderRev1.jpg"
         },
         {
             "name":"Semi-Sweat Corn Bread",
@@ -227,8 +227,8 @@
                 "Tradition is to always add some extra butter on top. 😎"
             ],
             "SpecialNotes":"Hey this note is very special",
-            "photoThumbnail":"CornBreadThumbnail.jpg",
-            "photoHeader":"CornBreadHeader.jpg"
+            "photoThumbnail":"photos/CornBreadThumbnail.jpg",
+            "photoHeader":"photos/CornBreadHeader.jpg"
        }
        
     ]
