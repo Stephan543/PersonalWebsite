@@ -26,7 +26,7 @@ A couple youtube tutorials at first but these were time consuming, hard to remem
 This list is ordered in terms of my top priorities:
 
 1. Fix any known bugs/issues/spelling in the current version (Gather site feedback feedback from launch on Jan 29, 2021)
-2. Clean up files so it is easier to read/clone - I chose to wait so I can use/learn git bash
+2. ~~Clean up files so it is easier to read/clone - I chose to wait so I can use/learn git bash~~
 3. Use/Learn popular frameworks and update/clean up my code where I see fit
 4. Using said frameworks create a seperate *'my personal time scheduling web app'* that I can merge in eventually to the site
 5. Add more client side features such as:
