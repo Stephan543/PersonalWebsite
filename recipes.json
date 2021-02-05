@@ -229,7 +229,80 @@
             "SpecialNotes":"Hey this note is very special",
             "photoThumbnail":"photos/CornBreadThumbnail.jpg",
             "photoHeader":"photos/CornBreadHeaderRev1.jpg"
-       }
-       
+       },
+       {
+        "name":"Delicious Chili Paste",
+        "serving":{
+            "quantity": 4,
+            "size":"",
+            "unit":"Cups",
+            "type": "Chili Paste"
+        },
+        "description": "I was on a 2-year hunt for a spicy paste... 🧐<br>And I have found one that meets my needs💁‍♂️<br>Great blend of spice, acidity and richness.<br>The mild sweetness from the bell peppers 👌<br>Enjoy this on top plain bread, eggs or meat!<br>Bottled chili paste will never be the same 🙏",
+        "ingredients": [
+            {
+                "name" : "Sweet Bell Peppers",
+                "quantity" : 0.5,
+                "unit" : "Kg"
+            },
+            {
+                "name" : "Scotch Bonnets",
+                "quantity" : 70,
+                "unit" : "Grams"
+            },
+            {
+                "name" : "Egg Plant",
+                "quantity" : 1,
+                "unit" : "Small"
+            },
+            {
+                "name" : "Button Mushrooms",
+                "quantity" : 4,
+                "unit" : "Medium"
+            },
+            {
+                "name" : "Yellow Onion",
+                "quantity" : 0.5,
+                "unit" : "Medium"
+            },
+            {
+                "name" : "Olive Oil",
+                "quantity" : 1,
+                "unit" : "Cups"
+            },
+            {
+                "name" : "White Wine Vinegar",
+                "quantity" : 0.25,
+                "unit" : "Cups"
+            },
+            {
+                "name" : "Salt",
+                "quantity" : 3,
+                "unit" : "tsp"
+            },
+            {
+                "name" : "Fennel Seeds",
+                "quantity" : 0.5,
+                "unit" : "tsp"
+            },
+            {
+                "name" : "Oregano",
+                "quantity" : 1,
+                "unit" : "tsp"
+            }
+        ],
+        "instructions":[
+            "Using a food food processer, lightly pulse (10 pulses) the chopped onion, mushrooms and eggplant.",
+            "Drizzle some olivce oil into a large pan and transfer the contents over a medium-high heat. Add the salt and cook until the mixture is soft (10 min).",
+            "<strong>While wearing gloves in a well ventilated space:</strong> Cut the tops off the hot and sweet peppers and clean the seeds. Discard the stems but save the rings.",
+            "Using a food processor, lightly pulse (10 pulses) the new mixture and combine in the skillet. Add the remaining olive oil, <strong>crushed</strong> fennel seeds, and oregano.",
+            "Stir occasionally and if the mixture is browning, reduce the heat. Cook for 20-30 minutes or until peppers are tender.",
+            "Stir in the white wine vinegar and transfer to a mixing bowl. Taste for any extra olive oil, salt or vinegar.",
+            "Enjoy! For next time - feel free to try out different hot peppers, just be cautious 🤯🥵🥴"
+        ],
+        "SpecialNotes":"Hey this note is very special",
+        "photoThumbnail": "photos/GarlicSauceThumbnail.jpg",
+        "photoHeader": "photos/GarlicSauceHeaderRev1.jpg"
+        }
     ]
 }
