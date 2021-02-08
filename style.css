@@ -176,10 +176,10 @@ nav{
 
 #recipePreview{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px;
     margin: 30px auto;
-    max-height: 300px;
+    /* max-height: 320px; */
     background-color: whitesmoke;
     box-shadow: 5px 5px 10px black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -193,7 +193,7 @@ nav{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    flex-basis: 400px;
+    flex-basis: auto;
 }
 #recipePreview h2{
     justify-content: center;
@@ -222,7 +222,7 @@ nav{
 }
 
 /*Mobile Style*/
-@media screen and (max-width:767px){
+@media screen and (max-width:768px){
     body{
         overflow-x: hidden;
     }
@@ -265,20 +265,20 @@ nav{
     
     #recipeFeed{
         width: 90%;
-        font-size: 9.5px;
+        font-size: 80%;
     }
     #recipePreview p{
         padding-top: 0.5rem;
-        line-height: 1rem;
+        line-height: 1.5rem;
     }
 
     #instructions ol{
         padding-left: 20px;
-        font-size: 10px;
-        line-height: 1rem;
+        line-height: 1.5rem;
     } 
 
 }
+
 
 .navActive{
     transform: translateX(0%);
@@ -370,6 +370,28 @@ footer{
     width: 35%;
     height: auto;
     margin-right: 10px;
+}
+
+/* thumbnail scaling issue on IOS */
+@media screen and (max-width:425px){
+    .thumbnail{
+        width: 150px;
+        height: auto;
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+    #recipePreview{
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10px;
+        width:95%;
+        height: auto;
+    }
+    #recipeFeed{
+        line-height: 1rem;
+        font-size: 75%;
+
+    }
 }
 
 .imgHeader{
