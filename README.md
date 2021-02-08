@@ -31,14 +31,13 @@ This list is ordered in terms of my top priorities:
 1. ~~Fix any known bugs/issues/spelling in the current version (Gather site feedback feedback from launch on Jan 29, 2021)~~
 2. ~~Clean up files so it is easier to read/clone - I chose to wait so I can use/learn git bash~~
 3. Use/Learn popular frameworks and update/clean up my code where I see fit
+    * UPDATE: *I want to clean up my code independant of frameworks or libraries for the time being* 
 4. Using said frameworks create a seperate *'my personal time scheduling web app'* that I can merge in eventually to the site
 5. Add more client side features such as:
   5.1 Converting between weight <-> volume units (I just chosed the ones I use in the current version)
   5.2 Converting from Instant Yeast <-> Fresh Yeast <-> Sourdough Yest and adjust the steps involved
   5.3 Creating a login system where users can comment and share information *This will likely take a while to learn how to do this*
   5.4 Create a new page that allows users to enter new recipe data to the database *Highly likely I wont allow this*
-
-  # This is a test of my new bootstrap-clean-up branch
   
   
 
