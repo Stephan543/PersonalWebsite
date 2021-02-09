@@ -34,7 +34,7 @@ xhttp.onreadystatechange = function() {
         function createPreviewLiteral(x){
             var out=``;
             //for loop to pass through all the elements in the JSON database
-            for (i=0; i < x; i++){  
+            for (let i= (x-1); i >= 0; i--){  
                 out += `
                 <a href="recipes.php?index=${i}">
                 <div id="recipePreview">
