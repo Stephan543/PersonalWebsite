@@ -177,9 +177,9 @@ nav{
 #recipePreview{
     display: flex;
     justify-content: space-around;
+    max-height: 300px;
     padding: 20px;
     margin: 30px auto;
-    /* max-height: 320px; */
     background-color: whitesmoke;
     box-shadow: 5px 5px 10px black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -262,7 +262,6 @@ nav{
         padding: 30px;
         font-size: 8px;
     }
-    
     #recipeFeed{
         width: 90%;
         font-size: 80%;
@@ -366,7 +365,7 @@ footer{
 }
 
 .thumbnail{
-    display: flex;
+    /* display: flex; */
     width: 35%;
     height: auto;
     margin-right: 10px;
@@ -385,12 +384,15 @@ footer{
         align-items: center;
         padding-bottom: 10px;
         width:95%;
-        height: auto;
+        height: fit-content;
     }
     #recipeFeed{
         line-height: 1rem;
         font-size: 75%;
 
+    }
+    #recipePreview{
+        max-height: fit-content;
     }
 }
 
