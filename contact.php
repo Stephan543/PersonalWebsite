@@ -28,11 +28,11 @@
                 $msgClass = 'alertSuccess';
 
                 $toEmail = 'stephan.iskander@gmail.com';
-                $subject = 'Contact Request From '.$name;
+                $subject = 'PersonalWebsite Contact Request From '.$name;
                 $body = '<h2>Contact Request</h2>
                     <h4>Name</h4><p>'.$name.'</p>
                     <h4>Email</h4><p>'.$email.'</p>
-                    <h4>Name</h4><p>'.$message.'</p>
+                    <h4>Message</h4><p>'.$message.'</p>
                 ';
 
                 //email headers
