@@ -77,7 +77,8 @@ xhttp.onreadystatechange = function() {
         if(page == 'recipes.php'){
             var currentRecipe = recipes[jIndex];
             defaultServing = currentRecipe.serving;
-            var ingredients = currentRecipe.ingredients;
+            
+
             document.getElementById('servingInfo').innerHTML = `
             <h2>Adjustabale Info:</h2>
             
@@ -86,9 +87,33 @@ xhttp.onreadystatechange = function() {
             `;
 
             const quantityInput = document.querySelector('p input');
-            var ingredientsList = document.querySelector('#ingredients > ol');
             
-            function populateIngredients(x){
+            if (currentRecipe.hasOwnProperty('levain')){ //check if lavain property then create a new dom node for it
+                var levainIngredients = currentRecipe.levain;
+
+                ingredients = currentRecipe.levain;
+
+                var h3 = document.createElement('h3');
+                var node = document.createTextNode('Levain Build:')
+
+                h3.appendChild(node);
+
+                var ingredientsDiv = document.getElementById('ingredients');
+                var levainList = document.createElement('ol');
+
+                ingredientsDiv.insertBefore(levainList, ingredientsDiv.childNodes[0])
+                ingredientsDiv.insertBefore(h3, ingredientsDiv.childNodes[0]);
+
+                levainList.innerHTML = populateIngredients(defaultServing.quantity);
+            
+            }
+
+            
+            
+            ingredients = currentRecipe.ingredients //Change 
+            var ingredientsList = document.querySelector('#ingredients > .mainIngredients');
+            
+            function populateIngredients(x){ //where y either ingredients or levainIngredients
                 var out=''
                  
                 for(i=0; i < ingredients.length; i++){
@@ -100,28 +125,22 @@ xhttp.onreadystatechange = function() {
                     ` ;
                 }
                 return out;
-            
             }
             
             ingredientsList.innerHTML = populateIngredients(defaultServing.quantity);
             
-            function updateIndredients(){
+            function updateIngredients(){
                 const newQuantity = parseFloat(quantityInput.value);
+                ingredients = currentRecipe.ingredients //Change 
                 ingredientsList.innerHTML = populateIngredients(newQuantity);
+                
+                if (currentRecipe.hasOwnProperty('levain')){
+                    ingredients = currentRecipe.levain //Change to ingredients list
+                    levainList.innerHTML = populateIngredients(newQuantity);
+                }
             }
 
-            quantityInput.addEventListener('input', updateIndredients);
-
-            //console.log(recipes[jIndex]);
-            
-            //loop through recipe ingredients
-            for(i=0; i < currentRecipe.ingredients.length; i++){
-                var iQuantity = currentRecipe.ingredients[i].quantity;
-                
-            
-            };
-        
-            // document.getElementById('recipePage').innerHTML = recipes[jIndex].ingredients;
+            quantityInput.addEventListener('input', updateIngredients);
 
         };
         

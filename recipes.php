@@ -35,7 +35,7 @@
 
     <div id="ingredients">
         <h2>Ingredients:</h2>
-        <ol></ol>
+        <ol class='mainIngredients'></ol>
     </div>
 
     <div id="instructions">
@@ -45,7 +45,6 @@
             <li><?php echo $i; ?></li>
         <?php endforeach; ?>
         </ol>
-
     </div>
 
 </div>

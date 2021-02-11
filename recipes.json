@@ -54,7 +54,7 @@
                 "unit":"Cups",
                 "type": "Fluffy Garlic Sauce"
             },
-            "description":"About 4 years ago I was introduced...<br>I've been making it almost monthly ever since.<br>I've travelled <i><strong>far</strong></i> around the Middle-East...<br>And by <i><strong>far</strong></i>, it's the most simple and tastiest.<br>Let me know what you try it on!<br>My favourites are on chicken and pizza 🤤<br>Recipe credit go to the beautiful Lody!",
+            "description":"About 4 years ago I was introduced...<br>I've been making it almost monthly ever since.<br>I've travelled <i><strong>far</strong></i> around the Middle-East...<br>And by <i><strong>far</strong></i>, it's the most simple and tasty.<br>Let me know what you try it on!<br>My favourites are on chicken and pizza 🤤<br>Recipe credit go to the beautiful Lody!",
             "ingredients": [
                 {
                     "name" : "Fresh Garlic Cloves",
@@ -102,7 +102,7 @@
             "description":"Not much beats fresh bread...<br>Expecially when you make it yourself!<br>The perfect pita pocket recipe is here!<br>Rip it and dip it or turn it into a utensil. 😎<br>Pair with hummus, babaghanoush or Lebnah.<br>Shawarma wraps with my Garlic Sauce...😍<br>Recipe credits go to David at the NY Times!",
             "ingredients": [
                 {
-                    "name": "All-Purposed Flower",
+                    "name": "All-purpose Flour",
                     "quantity": 300,
                     "unit": "Grams"
                 },
@@ -140,7 +140,7 @@
             "instructions": [
                 "Prepare warm water (bring 1\/3 of your water to a boil and mix with remaining water)",
                 "Add yeast and sugar to water and let sit for 15 minutes in a warm place",
-                "Combine the mixture with all the whole-wheat flour, all-purpose flower, olive oil and salt",
+                "Combine the mixture with all the whole-wheat flour, all-purpose flour, olive oil and salt",
                 "Mix with a wooden spoon until a shaggy mass, then knead in the bowl for 1 minute",
                 "Once most of the stray bits have been incorperated, turn dough out onto work surface and knead lightly for 2 minutes",
                 "Once the dough forms a smooth surface, let it rest for 10 minutes and knead again for 2 minutes",
@@ -194,7 +194,7 @@
                     "unit":"Cups"
                 },
                 {
-                    "name":"All-Purposed Flower",
+                    "name":"All-purpose Flour",
                     "quantity":1,
                     "unit":"Cups"
                 },
@@ -231,14 +231,14 @@
             "photoHeader":"photos/CornBreadHeaderRev1.jpg"
        },
        {
-        "name":"Delicious Chili Paste",
+        "name":"Delicious Chili Spread",
         "serving":{
             "quantity": 4,
             "size":"",
             "unit":"Cups",
             "type": "Chili Paste"
         },
-        "description": "I was on a 2-year hunt for a spicy paste... 🧐<br>And I have found one that meets my needs💁‍♂️<br>Great blend of spice, acidity and richness.<br>The mild sweetness from the bell peppers 👌<br>Enjoy this on top plain bread, eggs or meat!<br>Bottled chili paste will never be the same 🙏",
+        "description": "I was on a 2-year hunt for a spicy paste... 🧐<br>And I have found one that meets my needs💁‍♂️<br>Great blend of spice, acidity and richness.<br>The mild sweetness from the bell peppers 👌<br>Enjoy this on top of plain bread, eggs or meat!<br>Bottled chili paste will never be the same 🙏 <br> Recipe credits go to Chef John!",
         "ingredients": [
             {
                 "name" : "Sweet Bell Peppers",
@@ -246,8 +246,8 @@
                 "unit" : "Kg"
             },
             {
-                "name" : "Scotch Bonnets",
-                "quantity" : 70,
+                "name" : "Scotch Bonnet Peppers",
+                "quantity" : 100,
                 "unit" : "Grams"
             },
             {
@@ -293,7 +293,7 @@
         ],
         "instructions":[
             "Using a food food processer, lightly pulse (10 pulses) the chopped onion, mushrooms and eggplant.",
-            "Drizzle some olivce oil into a large pan and transfer the contents over a medium-high heat. Add the salt and cook until the mixture is soft (10 min).",
+            "Drizzle some olive oil into a large pan and transfer the contents over a medium-high heat. Add the salt and cook until the mixture is soft (10 min).",
             "<strong>While wearing gloves in a well ventilated space:</strong> Cut the tops off the hot and sweet peppers and clean the seeds. Discard the stems but save the rings.",
             "Using a food processor, lightly pulse (10 pulses) the new mixture and combine in the skillet. Add the remaining olive oil, <strong>crushed</strong> fennel seeds, and oregano.",
             "Stir occasionally and if the mixture is browning, reduce the heat. Cook for 20-30 minutes or until peppers are tender.",
@@ -303,6 +303,82 @@
         "SpecialNotes":"Hey this note is very special",
         "photoThumbnail": "photos/ChiliPasteThumbnail.jpg",
         "photoHeader": "photos/ChiliPasteHeader.jpg"
-        }
+        },
+        {
+            "name":"Whole Wheat Sourdough Loaf",
+            "serving":{
+                "quantity": 2,
+                "size":"",
+                "unit":"",
+                "type": "Sourdough Loaves"
+            },
+            "description": "",
+            "ingredients": [
+                {
+                    "name" : "Whole Wheat Flour",
+                    "quantity" : 800,
+                    "unit" : "Grams"
+                },
+                {
+                    "name" : "Rye Flour",
+                    "quantity" : 100,
+                    "unit" : "Grams"
+                },
+                {
+                    "name" : "All-purposed flour",
+                    "quantity" : 100,
+                    "unit" : "Grams"
+                },
+                {
+                    "name" : "Water",
+                    "quantity" : 780,
+                    "unit" : "Grams"
+                },
+                {
+                    "name" : "Levain",
+                    "quantity" : 210,
+                    "unit" : "Grams"
+                },
+                {
+                    "name" : "Salt",
+                    "quantity" : 20,
+                    "unit" : "Grams"
+                }
+            ],
+            "levain":[
+                {
+                    "name" : "Mature Sourdough Starter",
+                    "quantity" : 50,
+                    "unit" : "Grams" 
+                },
+                {
+                    "name" : "Bread Flour",
+                    "quantity" : 50,
+                    "unit" : "Grams"
+                },
+                {
+                    "name" : "Whole Wheat Flour",
+                    "quantity" : 50,
+                    "unit" : "Grams"
+                },
+                {
+                    "name" : "Warm Water",
+                    "quantity" : 100,
+                    "unit" : "Grams"
+                }
+            ],
+            "instructions":[
+                "Combine levain ingredients, mix with a fork until well incorporated, cover with a lid and leave in a warm place for 4 hours.",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "SpecialNotes":"Hey this note is very special",
+            "photoThumbnail": "photos/wwDoughThumbnail.jpeg",
+            "photoHeader": "photos/ChiliPasteHeader.jpg"
+            }
     ]
 }

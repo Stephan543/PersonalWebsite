@@ -462,6 +462,7 @@ footer{
     line-height: 1.75rem;
 }
 #ingredients h2{
+    padding-top: 1rem;
     text-align: center;
 }
 
