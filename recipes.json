@@ -379,14 +379,14 @@
                 "Place the dough on a well floured work surface, divide into the suggested quantity and shape each piece into a tight ball (use a bench scraper here).",
                 "Transfer the dough into a proofing container(bowl/banneton) and let it sit for 30min. Then cover each with a plastic bag and refrigerate for 8-12hrs.",
                 "Place your baking vessel(dutch oven) in the oven and preheat it to 500°F (30min).",
-                "<strong>Carefully:</strong> transfer the bread into the baking vessel(score the bread here if you'd like) and cover for 10min.",
-                "Reduce the temperature to 475°F and bake for 15min",
-                "Uncover and let the steam out, transfer the bread to the top rack and bake for 20 minutes.",
+                "<strong>Carefully:</strong> transfer the bread into the baking vessel(score the bread here if you'd like), add the cover and bake for 10min.",
+                "Reduce the temperature to 475°F and bake for 15min.",
+                "Uncover and let the steam out, transfer the bread to the top rack and bake for 15-20 minutes.",
                 "Place the bread on a cooling rack for 20min - this ensures the insides are cooked thoroughly!"
             ],
             "SpecialNotes":"Hey this note is very special",
-            "photoThumbnail": "photos/wwDoughThumbnail.jpeg",
-            "photoHeader": "photos/ChiliPasteHeader.jpg"
+            "photoThumbnail": "photos/wwDoughThumbnail.jpg",
+            "photoHeader": "photos/wwSourDoughHeader.jpg"
             }
     ]
 }
