@@ -1,6 +1,6 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="photos/headshot_removebg_preview_HlF_icon.ico">
+    <link rel="icon" href="recipePhotos/headshot_removebg_preview_HlF_icon.ico">
     
     <link rel="stylesheet" href="style.css">
 </head>

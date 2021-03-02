@@ -43,8 +43,8 @@
                 "My philosophy is the simpler the pizza the better... ENJOY!"
             ],
             "SpecialNotes":"Hey this note is very special",
-            "photoThumbnail":"photos/CookedDough.jpeg",
-            "photoHeader":"photos/HighQaulityDoughPhotoRev1.jpg"
+            "photoThumbnail":"recipePhotos/CookedDough.jpeg",
+            "photoHeader":"recipePhotos/HighQaulityDoughPhotoRev1.jpg"
        },
        {
             "name":"Lebanese Garlic Sauce",
@@ -88,8 +88,8 @@
                 
             ],
             "SpecialNotes":"Hey this note is very special",
-            "photoThumbnail": "photos/GarlicSauceThumbnail.jpg",
-            "photoHeader": "photos/GarlicSauceHeaderRev1.jpg"
+            "photoThumbnail": "recipePhotos/GarlicSauceThumbnail.jpg",
+            "photoHeader": "recipePhotos/GarlicSauceHeaderRev1.jpg"
         },
         {
             "name":"Pita bread",
@@ -155,8 +155,8 @@
 
             ],
             "SpecialNotes":"Hey this note is very special",
-            "photoThumbnail": "photos/PitaThumbnailRev.jpg",
-            "photoHeader":"photos/PitaHeaderRev1.jpg"
+            "photoThumbnail": "recipePhotos/PitaThumbnailRev.jpg",
+            "photoHeader":"recipePhotos/PitaHeaderRev1.jpg"
         },
         {
             "name":"Semi-Sweat Corn Bread",
@@ -227,8 +227,8 @@
                 "Tradition is to always add some extra butter on top. 😎"
             ],
             "SpecialNotes":"Hey this note is very special",
-            "photoThumbnail":"photos/CornBreadThumbnail.jpg",
-            "photoHeader":"photos/CornBreadHeaderRev1.jpg"
+            "photoThumbnail":"recipePhotos/CornBreadThumbnail.jpg",
+            "photoHeader":"recipePhotos/CornBreadHeaderRev1.jpg"
        },
        {
         "name":"Delicious Chili Spread",
@@ -301,8 +301,8 @@
             "Enjoy! For next time - feel free to try out different hot peppers, just be cautious 🤯🥵🥴"
         ],
         "SpecialNotes":"Hey this note is very special",
-        "photoThumbnail": "photos/ChiliPasteThumbnail.jpg",
-        "photoHeader": "photos/ChiliPasteHeader.jpg"
+        "photoThumbnail": "recipePhotos/ChiliPasteThumbnail.jpg",
+        "photoHeader": "recipePhotos/ChiliPasteHeader.jpg"
         },
         {
             "name":"Whole Wheat Sourdough Loaf",
@@ -385,8 +385,8 @@
                 "Place the bread on a cooling rack for 20min - this ensures the insides are cooked thoroughly!"
             ],
             "SpecialNotes":"Hey this note is very special",
-            "photoThumbnail": "photos/wwDoughThumbnail.jpg",
-            "photoHeader": "photos/wwSourDoughHeader.jpg"
+            "photoThumbnail": "recipePhotos/wwDoughThumbnail.jpg",
+            "photoHeader": "recipePhotos/wwSourDoughHeader.jpg"
             },
             {
                 "name":"Country Style Sourdough Loaf",
@@ -469,8 +469,8 @@
                     "Place the bread on a cooling rack for 20min - this ensures the insides are cooked thoroughly!"
                 ],
                 "SpecialNotes":"Hey this note is very special",
-                "photoThumbnail": "photos/SourDoughThumbnailRev1.jpg",
-                "photoHeader": "photos/SourDoughHeader.jpg"
+                "photoThumbnail": "recipePhotos/SourDoughThumbnailRev1.jpg",
+                "photoHeader": "recipePhotos/SourDoughHeader.jpg"
                 }
     ]
 }

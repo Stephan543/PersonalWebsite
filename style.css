@@ -1,4 +1,3 @@
-
 /*Chaning Default styling*/
 *{
     margin: 0px;
@@ -28,7 +27,7 @@ header{
 
 #landing-image{
     display:fixed;
-    background-image: url(photos/HighQualitySelfPortraitRev1.jpg);
+    background-image: url(recipePhotos/HighQualitySelfPortraitRev1.jpg);
     height: 100vh;
     background-position: center;
     background-repeat: none;

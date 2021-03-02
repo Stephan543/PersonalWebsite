@@ -8,6 +8,9 @@
             <a class="nav-item" href="recipePreviewPage.php">Recipes</a>
         </li>
         <li>
+            <a class="nav-item" href="hobbiesPreviewPage.php">Hobbies</a>
+        </li>
+        <li>
             <a class="nav-item" href="contact.php">Contact</a>
         </li>
     </ul>
