@@ -66,8 +66,6 @@ xhttp.onreadystatechange = function() {
             `;
         };
         
-
-
         function changeQuantity(defaultServing, newServing, iQuantity){
             multiplier = newServing/defaultServing;
             return iquantity * multiplier
