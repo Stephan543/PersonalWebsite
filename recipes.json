@@ -471,6 +471,76 @@
                 "SpecialNotes":"Hey this note is very special",
                 "photoThumbnail": "recipePhotos/SourDoughThumbnailRev1.jpg",
                 "photoHeader": "recipePhotos/SourDoughHeader.jpg"
-                }
+                },
+                {
+                    "name":"Classic Italian Pizza Sauce",
+                    "serving":{
+                        "quantity": 3,
+                        "size":"",
+                        "unit":"Cups",
+                        "type": "Pizza Sauce"
+                    },
+                    "description": "From my buddy Mikes Nonna",
+                    "ingredients": [
+                        {
+                            "name" : "Whole Canned Tomatoes",
+                            "quantity" : 3,
+                            "unit" : "Cans"
+                        },
+                        {
+                            "name" : "Garlic",
+                            "quantity" : 5,
+                            "unit" : "Cloves"
+                        },
+                        {
+                            "name" : "White or Yellow Onion",
+                            "quantity" : 0.5,
+                            "unit" : "Medium Size"
+                        },
+                        {
+                            "name" : "Tomatoe Paste",
+                            "quantity" : 0.5,
+                            "unit" : "Cans"
+                        },
+                        {
+                            "name" : "Olive Oil",
+                            "quantity" : 3,
+                            "unit" : "Tbsp"
+                        },
+                        {
+                            "name" : "Salt",
+                            "quantity" : 5,
+                            "unit" : "Grams"
+                        },
+                        {
+                            "name" : "Ground Black Pepper",
+                            "quantity" : 3,
+                            "unit" : "Grams"
+                        },
+                        {
+                            "name" : "Red Pepper Flakes",
+                            "quantity" : 1,
+                            "unit" : "Tbsp"
+                        },
+                        {
+                            "name" : "Dried Oregano",
+                            "quantity" : 1,
+                            "unit" : "Tsp"
+                        },
+                        {
+                            "name" : "Fresh Oregano",
+                            "quantity" : 2,
+                            "unit" : "Tbsp"
+                        }
+                    ],
+                    "instructions":[
+                        "Sautee Onion and Garlic - Do not brown the garlic, add in fresh oregano",
+                        ""
+                    ],
+                    "SpecialNotes":"Hey this note is very special",
+                    "photoThumbnail": "recipePhotos/.jpg",
+                    "photoHeader": "recipePhotos/.jpg"
+                    }
+                
     ]
 }
