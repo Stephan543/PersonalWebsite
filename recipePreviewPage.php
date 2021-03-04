@@ -14,7 +14,7 @@
     <div id = "recipePreviewBlurb">
     </div>
 
-    <div id=recipeFeed></div>
+    <div id="recipeFeed"></div>
 </div>
 
 

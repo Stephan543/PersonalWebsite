@@ -12,9 +12,10 @@
 
 <div id="recipePage">
     <div id = "recipePreviewBlurb">
+    <h1>Welcome to a introduction to my hobbies</h1>
     </div>
 
-    <div id=recipeFeed></div>
+    <div id="hobbyFeed"></div>
 </div>
 
 
