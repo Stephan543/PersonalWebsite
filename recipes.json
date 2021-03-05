@@ -480,12 +480,17 @@
                         "unit":"Cups",
                         "type": "Pizza Sauce"
                     },
-                    "description": "From my buddy Mikes Nonna",
+                    "description": "Credits go to Alba Fera fo this one. <br> Increase the quantity and store in mason jars.<br>Goes great on top of pizza or pasta. <br> I would recommend having some extra bread for dipping with the sauce!",
                     "ingredients": [
                         {
-                            "name" : "Whole Canned Tomatoes",
-                            "quantity" : 3,
+                            "name" : "Whole Tomatoes Canned",
+                            "quantity" : 1,
                             "unit" : "Cans"
+                        },
+                        {
+                            "name" : "Strained tomatoes",
+                            "quantity" : 2,
+                            "unit" : "Jars"
                         },
                         {
                             "name" : "Garlic",
@@ -523,7 +528,7 @@
                             "unit" : "Tbsp"
                         },
                         {
-                            "name" : "Dried Oregano",
+                            "name" : "Dried Basil",
                             "quantity" : 1,
                             "unit" : "Tsp"
                         },
@@ -534,12 +539,15 @@
                         }
                     ],
                     "instructions":[
-                        "Sautee Onion and Garlic - Do not brown the garlic, add in fresh oregano",
-                        ""
+                        "Sautee Onion and Garlic - Do not brown the garlic!",
+                        "Add in Fresh Oregano, Red Pepper Flakes, Dried Basil, Black Pepper and tomatoe paste.",
+                        "Sautee until fragrant. Then add in the strained tomatoes and whole tomatoes.",
+                        "Bring to a boil, reduce and let simmer for 2.5 - 3hrs. Stir Occasionally",
+                        "Goes great on pizza or with pasta. Considering puree version with a blender if preffered."
                     ],
                     "SpecialNotes":"Hey this note is very special",
-                    "photoThumbnail": "recipePhotos/.jpg",
-                    "photoHeader": "recipePhotos/.jpg"
+                    "photoThumbnail": "recipePhotos/PizzaSauceThumbnail.jpg",
+                    "photoHeader": "recipePhotos/PizzaSauceHeader.jpg"
                     }
                 
     ]
