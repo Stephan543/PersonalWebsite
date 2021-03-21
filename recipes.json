@@ -3,8 +3,8 @@
        {
             "name":"Neapolatin Pizza",
             "serving":{
-                "quantity": 8,
-                "size": 240,
+                "quantity": 4,
+                "size": 200,
                 "unit":"Gram",
                 "type": "Dough Balls"
             },
